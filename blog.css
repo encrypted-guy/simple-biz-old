@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+span {
+	color: #000;
+}
+
+header {
+	
+	position: fixed;
+	background-color: #f27013;
+	width: 90%;
+	height: 60px;
+	box-shadow: 0 4px 2px -2px gray;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+header h1 {
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 1rem;
+	color: #fff;
+	
+}
+nav {
+	float: right;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	padding-top: 1rem;
+	margin: 0 1rem;
+}
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+nav ul li a:hover {
+	color: #000;
+	transition: .5s;
+}
+nav ul li a:active {
+	font-weight: 400;
+}
+
+.background {
+	background: url(blog.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 75vh;
+}
+.blog {
+	background-color: #f9f7f1;
+	color: #616161;
+
+}
+.blog > h1 {
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #f27013;
+}
+.blog > p {
+	float: left;
+	text-align: left;
+	padding: 1rem;
+	margin-left: 1rem;
+
+}
+

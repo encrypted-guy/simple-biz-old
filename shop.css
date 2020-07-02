@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+span {
+	color: #000;
+}
+main {
+	background: url(shop.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+header {
+	
+	position: fixed;
+	background-color: #f27013;
+	width: 90%;
+	height: 60px;
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.5);
+	margin-left: 5%;
+	margin-top: 2%;
+}
+header h1 {
+	float: left;
+	margin-top: 0.7rem;
+	margin-left: 1rem;
+	color: #fff;
+	
+}
+nav {
+	float: right;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	padding-top: 1rem;
+	margin: 0 1rem;
+}
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+nav ul li a:hover {
+	color: #000;
+	transition: .5s;
+}
+nav ul li a:active {
+	font-weight: 400;
+}
+
+/*---------*/
+.white {
+	color: #fff;
+}
+.sells {
+	margin-top: 10rem;
+	margin-left: 10rem;
+}
+.sells h1 {
+	color: #f27013;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	text-decoration: underline;
+}
+div {
+	float: left;
+}
+.sells > div {
+	position: relative;
+	margin: 3.5rem;
+	width: 300px;
+	height: 400px;
+}
+button {
+	width: 100%;
+	padding-top: 10px;
+	background-color: #4CAF50;
+	border: none;
+}
+button a {
+	text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+button:hover {
+	background: #fd665c;
+	transition: .5s;
+}
